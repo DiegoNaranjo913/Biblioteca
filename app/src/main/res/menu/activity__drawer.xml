@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
     <item android:id="@+id/pgp" android:title="Pagina Principal" android:icon="@drawable/ic_casa"/>
-    <item android:id="@+id/de" android:title="Deseados" android:icon="@drawable/ic_estrella" />
+    <item android:id="@+id/de" android:title="Deseados" android:icon="@drawable/ic_corazon_de_boton_de_favorito" />
     <item android:id="@+id/his" android:title="Historial" android:icon="@drawable/ic_nota"/>
-    <item android:id="@+id/lifa" android:title="Libros Favoritos" android:icon="@drawable/ic_corazon_de_boton_de_favorito"/>
+    <item android:id="@+id/lifa" android:title="Libros Favoritos" android:icon="@drawable/ic_estrella"/>
     <item android:id="@+id/out" android:title="salir" android:icon="@drawable/ic_salir"/>
 </menu>

@@ -7,6 +7,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 
 /**
@@ -26,6 +29,9 @@ public class HistorialFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private ListView listView;
+    private ArrayList<Entidad> listaobject;
+    private Adapter adapter;
 
     private OnFragmentInteractionListener mListener;
 
@@ -63,8 +69,16 @@ public class HistorialFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        View view = inflater.inflate(R.layout.fragment_historial, container, false);
+         listView = (ListView) view.findViewById(R.id.listahis);
+        listaobject = getarraylist();
+        adapter = new Adapter(this.getContext(),listaobject);
+
+        listView.setAdapter(adapter);
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_historial, container, false);
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -72,6 +86,18 @@ public class HistorialFragment extends Fragment {
         if (mListener != null) {
             mListener.onFragmentInteraction(uri);
         }
+    }
+
+    private ArrayList<Entidad> getarraylist(){
+     ArrayList<Entidad> listaobj = new ArrayList<>();
+
+
+     listaobj.add(new Entidad(R.drawable.algebralineal,"Algebra Lineal","Stanley I. Grossman","Mc Graw Hill","700","3","0 Dias"));
+     listaobj.add(new Entidad(R.drawable.jqueryjavascript,"Jquery & Javascript","Christophe AUBRY","Eni","1000","7","0 Dias"));
+     listaobj.add(new Entidad(R.drawable.calculointegral,"Calculo Integral","Germán Rojas","Escuela Politécnica","1200","0","2 Dias"));
+     listaobj.add(new Entidad(R.drawable.php,"PHP 7","Oliver HEURTEL","Eni","500","4","0 Dias"));
+
+    return listaobj;
     }
 
     @Override

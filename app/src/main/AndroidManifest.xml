@@ -19,7 +19,14 @@
         <activity
             android:name=".PaginaPrincipalActivity"
             android:label="@string/title_activity_pagina_principal"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DetalleItem" />
+        <activity android:name=".Sistemaslist" />
+        <activity android:name=".Psicologialist" />
+        <activity android:name=".Matematicaslist" />
+        <activity android:name=".Industriallist" />
+        <activity android:name=".Negocioslist" />
+        <activity android:name=".Mercadeolist"></activity>
     </application>
 
 </manifest>

@@ -1,33 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HistorialFragment"
+    tools:context=".Sistemaslist"
     android:orientation="vertical">
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
+    <RelativeLayout android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_marginBottom="15dp"
-        android:orientation="horizontal">
+        >
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Historial"
-            android:textSize="30sp"></TextView>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_weight="2"
-            android:src="@drawable/historial" />
-    </LinearLayout>
+            android:text="Sistemas"
+            android:paddingBottom="10dp"
+            android:textSize="30sp" />
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,8 +25,9 @@
         android:orientation="vertical">
 
         <ListView
-            android:id="@+id/listahis"
+            android:id="@+id/listasis"
             android:layout_width="match_parent"
             android:layout_height="match_parent"></ListView>
     </LinearLayout>
+
 </LinearLayout>

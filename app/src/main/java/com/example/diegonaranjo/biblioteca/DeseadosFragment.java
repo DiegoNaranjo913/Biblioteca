@@ -7,6 +7,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 
 /**
@@ -26,6 +29,9 @@ public class DeseadosFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private ListView listView;
+    private ArrayList<Entidad> listaobject;
+    private AdapterDeseados adapter;
 
     private OnFragmentInteractionListener mListener;
 
@@ -63,8 +69,24 @@ public class DeseadosFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        View view = inflater.inflate(R.layout.fragment_deseados, container, false);
+        listView = (ListView) view.findViewById(R.id.listades);
+        listaobject = getarraylist();
+        adapter = new AdapterDeseados(this.getContext(),listaobject);
+
+        listView.setAdapter(adapter);
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_deseados, container, false);
+        return view;
+    }
+
+    private ArrayList<Entidad> getarraylist(){
+        ArrayList<Entidad> listaobj = new ArrayList<>();
+
+        listaobj.add(new Entidad(R.drawable.calculointegral,"Calculo Integral","Germán Rojas","Escuela Politécnica","1200","0","2 Dias"));
+        listaobj.add(new Entidad(R.drawable.html5,"Fundamentos Html 5","Luc VAN LANCKER","Eni","500","0","5 Dias"));
+        listaobj.add(new Entidad(R.drawable.matematicasdiscre,"Matematicas Discretas","Richard Johnsonbaugh","Pearson","1300","0","1 Dias"));
+        return listaobj;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
