@@ -20,6 +20,7 @@ public class AdapterDeseados extends BaseAdapter {
         this.listItem = listItem;
     }
 
+
     @Override
     public int getCount() {
         return listItem.size();

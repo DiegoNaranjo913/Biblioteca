@@ -111,6 +111,7 @@ public class PaginaPrincipalActivity extends AppCompatActivity
             getSupportFragmentManager().beginTransaction().replace(R.id.content,mifragment).commit();
         }
 
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

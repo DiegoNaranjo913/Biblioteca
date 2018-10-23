@@ -128,6 +128,32 @@
                 android:enabled="false"
                 ></EditText>
         </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+            <Button android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Agregar Deseados"
+                android:textSize="12dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                ></Button>
+            <Button android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Agregar Favoritos"
+                android:textSize="12dp"
+                android:background="@color/colorAccent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                ></Button>
+
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

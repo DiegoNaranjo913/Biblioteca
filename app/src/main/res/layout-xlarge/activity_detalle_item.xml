@@ -33,50 +33,50 @@
             <TextView android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Nombre:"
-                android:textSize="18dp"
+                android:textSize="30dp"
                 ></TextView>
             <EditText
                 android:id="@+id/detnombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="16dp"
+                android:textSize="30dp"
                 android:enabled="false"
                 ></EditText>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Autor:"
-                android:textSize="18dp"
+                android:textSize="30dp"
                 ></TextView>
             <EditText
                 android:id="@+id/detautor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="16dp"
+                android:textSize="30dp"
                 android:enabled="false"
                 ></EditText>
             <TextView android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Editorial:"
-                android:textSize="18dp"
+                android:textSize="30dp"
                 ></TextView>
             <EditText
                 android:id="@+id/deteditorial"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="16dp"
+                android:textSize="30dp"
                 android:enabled="false"
                 ></EditText>
             <TextView android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Paginas:"
-                android:textSize="18dp"
+                android:textSize="30dp"
                 ></TextView>
             <EditText
                 android:id="@+id/detpaginas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="16dp"
+                android:textSize="30dp"
                 android:enabled="false"
                 ></EditText>
 
@@ -96,14 +96,14 @@
                 android:layout_height="wrap_content"
                 android:text="Disponibilidad:"
                 android:layout_weight="1"
-                android:textSize="18dp"
+                android:textSize="30dp"
                 ></TextView>
             <EditText
                 android:id="@+id/detdisponi"
                 android:layout_width="match_parent"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:textSize="16dp"
+                android:textSize="30dp"
                 android:enabled="false"
                 ></EditText>
         </LinearLayout>
@@ -117,14 +117,14 @@
                 android:layout_height="wrap_content"
                 android:text="Tiempo Restante:"
                 android:layout_weight="1"
-                android:textSize="18dp"
+                android:textSize="30dp"
                 ></TextView>
             <EditText
                 android:id="@+id/dettiempo"
                 android:layout_width="match_parent"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:textSize="16dp"
+                android:textSize="30dp"
                 android:enabled="false"
                 ></EditText>
         </LinearLayout>

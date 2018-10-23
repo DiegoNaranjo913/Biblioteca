@@ -17,7 +17,7 @@
             android:gravity="center"
             android:text="Negocios"
             android:paddingBottom="10dp"
-            android:textSize="30sp" />
+            android:textSize="60dp" />
     </RelativeLayout>
 
     <LinearLayout

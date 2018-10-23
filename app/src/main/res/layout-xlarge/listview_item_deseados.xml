@@ -15,11 +15,12 @@
                 android:id="@+id/imagendes_list"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+
                 android:contentDescription="TODO"></ImageView>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="400dp"
             android:layout_weight="1"
             android:orientation="vertical">
             <LinearLayout android:layout_width="match_parent"
@@ -29,7 +30,7 @@
                 android:id="@+id/nombredes_list"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="24dp"
+                android:textSize="60dp"
                 android:gravity="center"
                 ></TextView>
             </LinearLayout>
@@ -40,7 +41,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textSize="18dp"
+                    android:textSize="40dp"
                     android:gravity="center_vertical"
                     android:layout_weight="1"
                     android:text="Disponibilidad :"
@@ -49,7 +50,7 @@
                 android:id="@+id/disponible_list"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="18dp"
+                android:textSize="30dp"
                 android:gravity="center"
                 android:layout_weight="1.5"
                 ></TextView>

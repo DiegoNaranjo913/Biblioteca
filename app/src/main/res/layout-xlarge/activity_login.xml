@@ -17,7 +17,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="Bienvenido a la Biblioteca Movíl"
-            android:textSize="30sp"></TextView>
+            android:textSize="60dp"></TextView>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
         android:orientation="vertical">
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="400dp"
                 app:srcCompat="@mipmap/logo">
             </ImageView>
         <LinearLayout android:layout_width="match_parent"
@@ -44,7 +44,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="30dp"
                     android:text="Codigo:"/>
                 <EditText
                     android:id="@+id/editText"
@@ -52,6 +52,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/edittext_rounded_corners"
                     android:ems="14"
+                    android:textSize="30dp"
                     android:padding="10dp"
                     android:layout_weight="1"
                     android:layout_margin="5dp"
@@ -70,7 +71,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="30dp"
                     android:text="Contraseña:"/>
                 <EditText
                     android:id="@+id/editText2"
@@ -79,6 +80,7 @@
                     android:background="@drawable/edittext_rounded_corners"
                     android:ems="14"
                     android:padding="10dp"
+                    android:textSize="30dp"
                     android:layout_weight="1"
                     android:layout_margin="5dp"
                     android:textColor="@color/primaryText"
@@ -91,13 +93,14 @@
                 android:layout_weight="1">
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="100dp"
                     android:layout_marginRight="100dp"
                     android:layout_marginLeft="100dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
                     android:onClick="onIngresar"
                     android:text="Ingresar"
+                    android:textSize="30dp"
                     ></Button>
             </LinearLayout>
         </LinearLayout>

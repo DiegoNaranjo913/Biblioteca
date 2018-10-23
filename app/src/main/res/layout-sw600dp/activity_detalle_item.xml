@@ -33,50 +33,50 @@
             <TextView android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Nombre:"
-                android:textSize="30dp"
+                android:textSize="60dp"
                 ></TextView>
             <EditText
                 android:id="@+id/detnombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
+                android:textSize="50dp"
                 android:enabled="false"
                 ></EditText>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Autor:"
-                android:textSize="30dp"
+                android:textSize="60dp"
                 ></TextView>
             <EditText
                 android:id="@+id/detautor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
+                android:textSize="50dp"
                 android:enabled="false"
                 ></EditText>
             <TextView android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Editorial:"
-                android:textSize="30dp"
+                android:textSize="60dp"
                 ></TextView>
             <EditText
                 android:id="@+id/deteditorial"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
+                android:textSize="50dp"
                 android:enabled="false"
                 ></EditText>
             <TextView android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Paginas:"
-                android:textSize="30dp"
+                android:textSize="60dp"
                 ></TextView>
             <EditText
                 android:id="@+id/detpaginas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
+                android:textSize="50dp"
                 android:enabled="false"
                 ></EditText>
 
@@ -85,7 +85,7 @@
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_weight="1.2">
+        android:layout_weight="1.8">
         <LinearLayout android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -96,14 +96,16 @@
                 android:layout_height="wrap_content"
                 android:text="Disponibilidad:"
                 android:layout_weight="1"
-                android:textSize="30dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="60dp"
                 ></TextView>
             <EditText
                 android:id="@+id/detdisponi"
                 android:layout_width="match_parent"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
+                android:textSize="50dp"
+                android:layout_gravity="center_vertical"
                 android:enabled="false"
                 ></EditText>
         </LinearLayout>
@@ -116,15 +118,17 @@
             <TextView android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Tiempo Restante:"
+                android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                android:textSize="30dp"
+                android:textSize="60dp"
                 ></TextView>
             <EditText
                 android:id="@+id/dettiempo"
                 android:layout_width="match_parent"
                 android:layout_weight="1"
+                android:layout_gravity="center_vertical"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
+                android:textSize="50dp"
                 android:enabled="false"
                 ></EditText>
         </LinearLayout>
